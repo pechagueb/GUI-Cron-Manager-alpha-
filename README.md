@@ -4,7 +4,7 @@
 
 # GUI Cron Manager
 
-## 🛠️ Friendly Cron Manager: 
+## 🛠️ Friendly Cron Manager 
 
 Simplify Your Scheduled Tasks
 Friendly Cron Manager brings the management of your CRON jobs into the 21st century. It allows you to administer and schedule complex tasks intuitively, without ever touching the command line!

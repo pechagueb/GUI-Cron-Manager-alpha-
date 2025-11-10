@@ -1,0 +1,42 @@
+{
+  "name": "friendly-cron-manager",
+  "version": "1.0.0",
+  "description": "A friendly GUI for managing cron tasks.",
+  "main": "main.js",
+  "scripts": {
+    "start": "npm run build && electron .",
+    "build": "node build.mjs",
+    "dist": "npm run build && electron-builder"
+  },
+  "author": "AI",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1",
+    "esbuild": "^0.19.11"
+  },
+  "dependencies": {
+    "@google/genai": "^1.29.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "build": {
+    "appId": "com.example.friendlycronmanager",
+    "productName": "Friendly Cron Manager",
+    "files": [
+      "dist/**/*",
+      "index.html",
+      "main.js",
+      "preload.js",
+      "node_modules/**/*"
+    ],
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb",
+        "snap"
+      ],
+      "category": "Utility"
+    }
+  }
+}

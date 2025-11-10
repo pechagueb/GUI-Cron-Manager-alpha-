@@ -1,0 +1,5 @@
+{
+  "name": "Friendly Cron Manager",
+  "description": "An intuitive and friendly graphical user interface for managing cron tasks. leverages AI to convert natural language descriptions into cron schedules, simplifying task automation for everyone.",
+  "requestFramePermissions": []
+}
